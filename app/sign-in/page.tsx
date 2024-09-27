@@ -35,7 +35,7 @@ export default function SignIn() {
         </Form>
 
         <div>
-          Don't have account?{" "}
+          {`Don't`} have account?{" "}
           <Link href={paths.signUp}>
             <Button type="link" className="p-0">
               Sign Up

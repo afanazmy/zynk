@@ -9,5 +9,7 @@ export default function Home() {
 
   useEffect(() => {
     router.replace(paths.signIn);
+
+    //eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 }
